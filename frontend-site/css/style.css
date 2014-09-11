@@ -44,26 +44,18 @@ body{
 	padding: 2%;
 }
 
-/*--start-links--*/
-
-.links {
-	display:none
-}
-/*--end-links--*/
-
-/*--start-page-divs--*/
-.home-page {
+/*--start-div-hidden--*/
+.hidden {
 
 }
-.ask-page {
+
+.visible {
 	
 }
-.archive-page {
-	
-}
-.contact-page {
 
-}
+/*--end-div-hidden--*/
+
+
 /*--end-page-divs--*/
 
 /*---start-nav---*/

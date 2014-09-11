@@ -10,24 +10,10 @@
       <link href="css/camera.css" rel="stylesheet" type="text/css" media="all" />
       <script src="js/jquery.min.js"></script>
       <script type='text/javascript' src="js/jquery.mobile.customized.min.js"></script>
-      <script type='text/javascript' src="js/jquery.easing.1.3.js"></script> 
-      <script type='text/javascript' src="js/camera.min.js"></script> 
+      <script type='text/javascript' src="js/jquery.easing.1.3.js"></script>
+      <script type='text/javascript' src="js/camera.min.js"></script>
       <script type='text/javascript' src="js/jquery-2.1.1.min.js"></script>
-      <script>
-      
-         $(document).ready(function() {
-         	$(".ask-page").hide();
-         	
-         	$(".links").show();
-         	
-         	$('.links').click(function () {
-         		$(".ask-page").toggle({duration: 2000});
-         		$(".home-page").toggle({duration: 2000});
-         	});
-         	
-         });
-         
-      </script>
+      <script type='text/javascript' src="js/slider.js"></script>
       <!-- end slider -->
    </head>
    <body>
@@ -37,32 +23,38 @@
             <div class="header">
                <div class="nav">
                   <ul>
-                     <li class="a"><a class="active" href="index.html" class="links">Home</a> </li>
-                     <li><a href="#" class="links">Ask</a></li>
-                     <li><a href="archive.html" class="links">Archive</a>  </li>
-                     <li><a href="contact.html" class="links">Contact</a> </li>
+                     <li class="a"><a class="link home-page active" name="home" href="#home">Home</a> 
+                     </li>
+                     <li><a href="#ask" class="link ask-page" name="ask">Ask</a>
+                     </li>
+                     <li><a href="#archive" class="link archive-page" id="archive-page-link">Archive</a> 
+                     </li>
+                     <li><a href="#contact" class="link contact-page" id="contact-page-link">Contact</a> 
+                     </li>
                   </ul>
                </div>
                <div class="search">
                   <input type="text" name="s" class="textbox" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
                   <input type="submit" value="Subscribe" id="submit" name="submit">
-                  <div id="response"> </div>
+                  <div id="response"></div>
                </div>
-               <div class="clear"> </div>
+               <div class="clear"></div>
             </div>
          </div>
       </div>
       <!-- end_header -->
       <!-- start home page -->
-      <div class="home-page">
+      <div id="home-page" class="visible" >
          <div class="wrap">
             <div class="logo">
-               <a href="index.html"><img src="images/logo.png" alt=""></a>
+               <a href="index.html">
+               <img src="images/logo.png" alt="">
+               </a>
             </div>
             <div class="grid">
                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
             </div>
-            <div class="clear"> </div>
+            <div class="clear"></div>
          </div>
          <!-- start slider -->
          <div class="slider">
@@ -70,19 +62,22 @@
                <div class="camera_wrap camera_magenta_skin" id="camera_wrap_2">
                   <div data-src="images/slider1.jpg">
                      <div class="camera_caption fadeFromBottom">
-                        <p><a href="index.html">VISTA</a></p>
+                        <p><a href="index.html">VISTA</a>
+                        </p>
                         <h2>palce your description text here.great spot to tell about deals Lorem Ipsum has been the industry's standard dummy text.</h2>
                      </div>
                   </div>
                   <div data-src="images/slider2.jpg">
                      <div class="camera_caption fadeFromBottom">
-                        <p><a href="index.html">GREAT</a></p>
+                        <p><a href="index.html">GREAT</a>
+                        </p>
                         <h2> It uses a light version of jQuery mobile, navigate the slides by swiping with your fingers Lorem Ipsum has been the industry's standard dummy text</h2>
                      </div>
                   </div>
                   <div data-src="images/slider4.jpg">
                      <div class="camera_caption fadeFromBottom">
-                        <p><a href="index.html">LIGHT</a></p>
+                        <p><a href="index.html">LIGHT</a>
+                        </p>
                         <h2> It uses a light version of jQuery mobile, navigate the slides by swiping with your fingers Lorem Ipsum has been the industry's standard dummy text</h2>
                      </div>
                   </div>
@@ -103,8 +98,14 @@
                            <p><i class="icon1"> </i><span>4 Jan 24</span>
                            <p>
                         </li>
-                        <li ><a href="#"> <i class="icon2"> </i> <span>Text</span></a></li>
-                        <li ><a href="#"> <i class="icon3"> </i><span>3 Comments</span></a></li>
+                        <li>
+                           <a href="#"> <i class="icon2"> </i>  <span>Text</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#"> <i class="icon3"> </i><span>3 Comments</span>
+                           </a>
+                        </li>
                      </ul>
                      <div class="clear"></div>
                   </div>
@@ -119,10 +120,17 @@
                   <div class="f_nav2">
                      <ul>
                         <li>
-                           <p> <i class="icon1"> </i><span>4 Jan 24</span></p>
+                           <p> <i class="icon1"> </i><span>4 Jan 24</span>
+                           </p>
                         </li>
-                        <li ><a href="#"> <i class="icon2"> </i> <span>Quote</span></a></li>
-                        <li ><a href="#"> <i class="icon3"> </i><span>3 Comments</span></a></li>
+                        <li>
+                           <a href="#"> <i class="icon2"> </i>  <span>Quote</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#"> <i class="icon3"> </i><span>3 Comments</span>
+                           </a>
+                        </li>
                      </ul>
                      <div class="clear"></div>
                   </div>
@@ -137,10 +145,17 @@
                   <div class="f_nav3">
                      <ul>
                         <li>
-                           <p> <i class="icon1"> </i><span>4 Jan 24</span></p>
+                           <p> <i class="icon1"> </i><span>4 Jan 24</span>
+                           </p>
                         </li>
-                        <li ><a href="#"> <i class="icon2"> </i> <span>Video</span></a></li>
-                        <li ><a href="#"> <i class="icon3"> </i><span>3 Comments</span></a></li>
+                        <li>
+                           <a href="#"> <i class="icon2"> </i>  <span>Video</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#"> <i class="icon3"> </i><span>3 Comments</span>
+                           </a>
+                        </li>
                      </ul>
                      <div class="clear"></div>
                   </div>
@@ -155,14 +170,21 @@
                   <div class="f_nav4">
                      <ul>
                         <li>
-                           <p> <i class="icon1"> </i><span>4 Jan 24</span></p>
+                           <p> <i class="icon1"> </i><span>4 Jan 24</span>
+                           </p>
                         </li>
-                        <li ><a href="#"> <i class="icon2"> </i> <span>Image</span></a></li>
-                        <li ><a href="#"> <i class="icon3"> </i><span>3 Comments</span></a></li>
+                        <li>
+                           <a href="#"> <i class="icon2"> </i>  <span>Image</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#"> <i class="icon3"> </i><span>3 Comments</span>
+                           </a>
+                        </li>
                      </ul>
                      <div class="clear"></div>
                   </div>
-                  <img src="images/img.jpg"  alt=""/>
+                  <img src="images/img.jpg" alt="" />
                </div>
             </div>
          </div>
@@ -172,10 +194,17 @@
                   <div class="f_nav5">
                      <ul>
                         <li>
-                           <p> <i class="icon1"> </i><span>4 Jan 24</span></p>
+                           <p> <i class="icon1"> </i><span>4 Jan 24</span>
+                           </p>
                         </li>
-                        <li ><a href="#"> <i class="icon2"> </i> <span>Music</span></a></li>
-                        <li ><a href="#"> <i class="icon3"> </i><span>3 Comments</span></a></li>
+                        <li>
+                           <a href="#"> <i class="icon2"> </i>  <span>Music</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#"> <i class="icon3"> </i><span>3 Comments</span>
+                           </a>
+                        </li>
                      </ul>
                      <div class="clear"></div>
                   </div>
@@ -185,15 +214,17 @@
          </div>
       </div>
       <!-- start ask page -->
-      <div class="ask-page">
+      <div id="ask-page" class="hidden">
          <div class="wrap">
             <div class="logo">
-               <a href="index.html"><img src="images/logo.png" alt=""></a>
+               <a href="index.html">
+               <img src="images/logo.png" alt="">
+               </a>
             </div>
             <div class="grid">
                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
             </div>
-            <div class="clear"> </div>
+            <div class="clear"></div>
          </div>
          <!--start-grids-->
          <div class="wrap">
@@ -211,24 +242,98 @@
             </div>
          </div>
       </div>
-      <!-- footer-bottom --> 
+      <!-- archive-page-start -->
+      <div id="archive-page" class="hidden">
+         <div class="wrap">
+            <div class="top-cont">
+               <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h2>
+               <div class="list-img"  >
+                  <img align="" src="images/img.jpg" alt="blog post image"/>
+               </div>
+               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+               <div class="f_nav1">
+                  <ul>
+                     <li>
+                        <p> <i class="icon1"> </i><span>4 Jan 24</span></p>
+                     </li>
+                     <li><a href="#"> <i class="icon3"> </i><span>3 Comments</span></a></li>
+                  </ul>
+                  <div class="clear"></div>
+               </div>
+               <h6><a href="">READ MORE</a></h6>
+            </div>
+         </div>
+      </div>
+      <div id="contact-page" class="hidden">
+         <div class="wrap">
+            <div class="main">
+               <div class="contact">
+                  <div class="contact_info">
+                     <h2 class="style">get in touch</h2>
+                     <div class="map">
+                        <iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="color:#fc515c;text-align:left;font-size:0.8em">View Larger Map</a></small>
+                     </div>
+                  </div>
+                  <div class="contact-form">
+                     <div class="content">
+                        <h2 class="style">Contact Us</h2>
+                     </div>
+                     <form method="post" action="contact-post.html">
+                        <div>
+                           <span><label>Name</label></span>
+                           <span><input name="userName" type="text" class="textbox"></span>
+                        </div>
+                        <div>
+                           <span><label>E-mail</label></span>
+                           <span><input name="userEmail" type="text" class="textbox"></span>
+                        </div>
+                        <div>
+                           <span><label>Mobile</label></span>
+                           <span><input name="userPhone" type="text" class="textbox"></span>
+                        </div>
+                        <div>
+                           <span><label>Subject</label></span>
+                           <span><textarea name="userMsg"> </textarea></span>
+                        </div>
+                        <div>
+                           <span><input type="submit" class="" value="Submit us"></span>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="clear"> </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer-bottom -->
       <div class="footer-bottom">
          <div class="wrap">
             <div class="copy-right">
-               <p>Swiss Theme by Niall Mac Farlane Template <a href="http://w3layouts.com/">  w3layouts.com</a></p>
+               <p>Swiss Theme by Niall Mac Farlane Template <a href="http://w3layouts.com/">  w3layouts.com</a>
+               </p>
             </div>
             <div class="social-icons">
                <ul>
-                  <li class="icon1"><a href="#" target="_blank"> </a></li>
-                  <li class="icon2"><a href="#" target="_blank"> </a></li>
-                  <li class="icon3"><a href="#" target="_blank"> </a></li>
-                  <li class="icon4"><a href="#" target="_blank"> </a></li>
-                  <li class="icon5"><a href="#" target="_blank"> </a></li>
+                  <li class="icon1">
+                     <a href="#" target="_blank"></a>
+                  </li>
+                  <li class="icon2">
+                     <a href="#" target="_blank"></a>
+                  </li>
+                  <li class="icon3">
+                     <a href="#" target="_blank"></a>
+                  </li>
+                  <li class="icon4">
+                     <a href="#" target="_blank"></a>
+                  </li>
+                  <li class="icon5">
+                     <a href="#" target="_blank"></a>
+                  </li>
                   <div class="clear"></div>
                </ul>
             </div>
          </div>
-         <div class="clear"> </div>
+         <div class="clear"></div>
       </div>
    </body>
 </html>
