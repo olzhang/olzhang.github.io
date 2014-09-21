@@ -1,69 +1,52 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-      <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free Bootstrap Admin Template : Binary Admin</title>
 	<!-- BOOTSTRAP STYLES-->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
      <!-- FONTAWESOME STYLES-->
-    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
      <!-- MORRIS CHART STYLES-->
-    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet">
         <!-- CUSTOM STYLES-->
-    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="assets/css/custom.css" rel="stylesheet">
      <!-- GOOGLE FONTS-->
-   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div id="wrapper">
-        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Binary admin</a> 
-            </div>
-  <div style="color: white;
-padding: 15px 50px 5px 50px;
-float: right;
-font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-danger square-btn-adjust">Logout</a> </div>
-        </nav>   
+           
            <!-- /. NAV TOP  -->
                 <nav class="navbar-default navbar-side" role="navigation">
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
-				<li class="text-center">
-                    <img src="assets/img/find_user.png" class="user-image img-responsive"/>
-					</li>
+				
 				
 					
                     <li>
                         <a href="index.html"><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a  href="ui.html"><i class="fa fa-desktop fa-3x"></i> UI Elements</a>
+                        <a href="ui.html"><i class="fa fa-desktop fa-3x"></i> UI Elements</a>
                     </li>
                     <li>
-                        <a  href="tab-panel.html"><i class="fa fa-qrcode fa-3x"></i> Tabs & Panels</a>
+                        <a href="tab-panel.html"><i class="fa fa-qrcode fa-3x"></i> Tabs &amp; Panels</a>
                     </li>
-						   <li  >
-                        <a class="active-menu"   href="chart.html"><i class="fa fa-bar-chart-o fa-3x"></i> Morris Charts</a>
+						   <li>
+                        <a class="active-menu" href="chart.html"><i class="fa fa-bar-chart-o fa-3x"></i> Morris Charts</a>
                     </li>	
-                      <li  >
-                        <a  href="table.html"><i class="fa fa-table fa-3x"></i> Table Examples</a>
+                      <li>
+                        <a href="table.html"><i class="fa fa-table fa-3x"></i> Table Examples</a>
                     </li>
-                    <li  >
-                        <a  href="form.html"><i class="fa fa-edit fa-3x"></i> Forms </a>
+                    <li>
+                        <a href="form.html"><i class="fa fa-edit fa-3x"></i> Forms </a>
                     </li>				
 					
 					                   
                     <li>
                         <a href="#"><i class="fa fa-sitemap fa-3x"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
+                        <ul class="nav nav-second-level collapse">
                             <li>
                                 <a href="#">Second Level Link</a>
                             </li>
@@ -72,7 +55,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                             </li>
                             <li>
                                 <a href="#">Second Level Link<span class="fa arrow"></span></a>
-                                <ul class="nav nav-third-level">
+                                <ul class="nav nav-third-level collapse">
                                     <li>
                                         <a href="#">Third Level Link</a>
                                     </li>
@@ -88,8 +71,8 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                             </li>
                         </ul>
                       </li>  
-                  <li  >
-                        <a  href="blank.html"><i class="fa fa-square-o fa-3x"></i> Blank Page</a>
+                  <li>
+                        <a href="blank.html"><i class="fa fa-square-o fa-3x"></i> Blank Page</a>
                     </li>	
                 </ul>
                
@@ -97,7 +80,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
             
         </nav>  
         <!-- /. NAV SIDE  -->
-        <div id="page-wrapper" >
+        <div id="page-wrapper">
             <div id="page-inner">
                 <div class="row">
                     <div class="col-md-12">
@@ -107,7 +90,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                     </div>
                 </div>
                  <!-- /. ROW  -->
-                 <hr />
+                 <hr>
              
                 <div class="row"> 
                     
@@ -118,7 +101,13 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                             Bar Chart Example
                         </div>
                         <div class="panel-body">
-                            <div id="morris-bar-chart"></div>
+                            <div style="position: relative;" id="morris-bar-chart"><svg style="overflow: hidden; position: relative; top: -0.399994px;" xmlns="http://www.w3.org/2000/svg" width="458" version="1.1" height="357"><desc>Created with Raphaël 2.1.0</desc><defs></defs><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="323" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">0</tspan></text><path stroke-width="0.5" d="M49,323H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="248.5" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">25</tspan></text><path stroke-width="0.5" d="M49,248.5H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="174" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">50</tspan></text><path stroke-width="0.5" d="M49,174H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="99.5" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">75</tspan></text><path stroke-width="0.5" d="M49,99.5H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="25" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">100</tspan></text><path stroke-width="0.5" d="M49,25H433" stroke="#aaaaaa" fill="none" style=""></path><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="405.57142857142856" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2012</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="295.8571428571429" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2010</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="186.14285714285714" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2008</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="76.42857142857143" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2006</tspan></text><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#0b62a4" ry="0" rx="0" r="0" height="298" width="19.07142857142857" y="25" x="55.857142857142854"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#7a92a3" ry="0" rx="0" r="0" height="268.2" width="19.07142857142857" y="54.80000000000001" x="77.92857142857142"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#0b62a4" ry="0" rx="0" r="0" height="223.5" width="19.07142857142857" y="99.5" x="110.71428571428572"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#7a92a3" ry="0" rx="0" r="0" height="193.7" width="19.07142857142857" y="129.3" x="132.78571428571428"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#0b62a4" ry="0" rx="0" r="0" height="149" width="19.07142857142857" y="174" x="165.57142857142858"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#7a92a3" ry="0" rx="0" r="0" height="119.19999999999999" width="19.07142857142857" y="203.8" x="187.64285714285717"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#0b62a4" ry="0" rx="0" r="0" height="223.5" width="19.07142857142857" y="99.5" x="220.42857142857142"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#7a92a3" ry="0" rx="0" r="0" height="193.7" width="19.07142857142857" y="129.3" x="242.5"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#0b62a4" ry="0" rx="0" r="0" height="149" width="19.07142857142857" y="174" x="275.2857142857143"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#7a92a3" ry="0" rx="0" r="0" height="119.19999999999999" width="19.07142857142857" y="203.8" x="297.35714285714283"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#0b62a4" ry="0" rx="0" r="0" height="223.5" width="19.07142857142857" y="99.5" x="330.1428571428571"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#7a92a3" ry="0" rx="0" r="0" height="193.7" width="19.07142857142857" y="129.3" x="352.21428571428567"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#0b62a4" ry="0" rx="0" r="0" height="298" width="19.07142857142857" y="25" x="384.99999999999994"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#7a92a3" ry="0" rx="0" r="0" height="268.2" width="19.07142857142857" y="54.80000000000001" x="407.0714285714285"></rect></svg><div style="display: none; left: 144.643px; top: 138px;" class="morris-hover morris-default-style"><div class="morris-hover-row-label">2008</div><div class="morris-hover-point" style="color: #0b62a4">
+  Series A:
+  50
+</div><div class="morris-hover-point" style="color: #7a92a3">
+  Series B:
+  40
+</div></div></div>
                         </div>
                     </div>            
                 </div>
@@ -128,7 +117,16 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                             Area Chart Example
                         </div>
                         <div class="panel-body">
-                            <div id="morris-area-chart"></div>
+                            <div style="position: relative;" id="morris-area-chart"><svg style="overflow: hidden; position: relative; left: -0.5px; top: -0.399994px;" xmlns="http://www.w3.org/2000/svg" width="458" version="1.1" height="357"><desc>Created with Raphaël 2.1.0</desc><defs></defs><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="323" x="53.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">0</tspan></text><path stroke-width="0.5" d="M66,323H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="248.5" x="53.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">7,500</tspan></text><path stroke-width="0.5" d="M66,248.5H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="174" x="53.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">15,000</tspan></text><path stroke-width="0.5" d="M66,174H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="99.5" x="53.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">22,500</tspan></text><path stroke-width="0.5" d="M66,99.5H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="25" x="53.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">30,000</tspan></text><path stroke-width="0.5" d="M66,25H433" stroke="#aaaaaa" fill="none" style=""></path><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="365.2187120291616" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2012</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="202.45443499392465" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2011</tspan></text><path fill-opacity="1" d="M66,270.2242C76.25637910085055,264.76086666666663,96.76913730255163,253.42320833333332,107.02551640340218,248.37086666666664C117.28189550425273,243.31852499999997,137.7946537059538,236.7218892531876,148.05103280680436,229.80546666666666C158.1959295261239,222.96422258652095,178.48572296476306,195.381541160221,188.6306196840826,193.34019999999998C198.6640340218712,191.32129116022097,218.73086269744834,212.07978809523806,228.76427703523694,213.56446666666665C239.0206561360875,215.08213809523807,259.53341433778854,204.33888333333334,269.7897934386391,205.3496C280.04617253948965,206.36031666666668,300.55893074119075,239.59169981785064,310.8153098420413,221.65019999999998C320.96020656136085,203.9037164845173,341.25,71.25456666666668,351.39489671931955,62.59766666666667C361.5397934386391,53.94076666666667,381.82958687727825,139.70165200364298,391.9744835965978,152.39499999999998C402.23086269744834,165.2278353369763,422.74362089914945,161.62554999999998,433,164.70239999999998L433,323L66,323Z" stroke="none" fill="#7cb47c" style="fill-opacity: 1;"></path><path stroke-width="3" d="M66,270.2242C76.25637910085055,264.76086666666663,96.76913730255163,253.42320833333332,107.02551640340218,248.37086666666664C117.28189550425273,243.31852499999997,137.7946537059538,236.7218892531876,148.05103280680436,229.80546666666666C158.1959295261239,222.96422258652095,178.48572296476306,195.381541160221,188.6306196840826,193.34019999999998C198.6640340218712,191.32129116022097,218.73086269744834,212.07978809523806,228.76427703523694,213.56446666666665C239.0206561360875,215.08213809523807,259.53341433778854,204.33888333333334,269.7897934386391,205.3496C280.04617253948965,206.36031666666668,300.55893074119075,239.59169981785064,310.8153098420413,221.65019999999998C320.96020656136085,203.9037164845173,341.25,71.25456666666668,351.39489671931955,62.59766666666667C361.5397934386391,53.94076666666667,381.82958687727825,139.70165200364298,391.9744835965978,152.39499999999998C402.23086269744834,165.2278353369763,422.74362089914945,161.62554999999998,433,164.70239999999998" stroke="#4da74d" fill="none" style=""></path><circle stroke-width="1" style="" stroke="#ffffff" fill="#4da74d" r="2" cy="270.2242" cx="66"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#4da74d" r="2" cy="248.37086666666664" cx="107.02551640340218"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#4da74d" r="2" cy="229.80546666666666" cx="148.05103280680436"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#4da74d" r="2" cy="193.34019999999998" cx="188.6306196840826"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#4da74d" r="2" cy="213.56446666666665" cx="228.76427703523694"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#4da74d" r="2" cy="205.3496" cx="269.7897934386391"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#4da74d" r="2" cy="221.65019999999998" cx="310.8153098420413"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#4da74d" r="2" cy="62.59766666666667" cx="351.39489671931955"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#4da74d" r="2" cy="152.39499999999998" cx="391.9744835965978"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#4da74d" r="2" cy="164.70239999999998" cx="433"></circle><path fill-opacity="1" d="M66,296.51773333333335C76.25637910085055,290.54283333333336,96.76913730255163,277.85175833333335,107.02551640340218,272.61813333333333C117.28189550425273,267.3845083333333,137.7946537059538,257.51018469945353,148.05103280680436,254.64873333333333C158.1959295261239,251.81838469945353,178.48572296476306,252.15196804788212,188.6306196840826,249.85093333333333C198.6640340218712,247.5751847145488,218.73086269744834,239.53322912087913,228.76427703523694,236.3416C239.0206561360875,233.0790457875458,259.53341433778854,223.89885833333332,269.7897934386391,224.0342C280.04617253948965,224.16954166666667,300.55893074119075,251.25343315118397,310.8153098420413,237.42433333333332C320.96020656136085,223.74554981785062,341.25,122.11323333333331,351.39489671931955,114.00266666666664C361.5397934386391,105.89209999999997,381.82958687727825,164.02529134790527,391.9744835965978,172.53979999999999C402.23086269744834,181.1478746812386,422.74362089914945,180.00469999999999,433,182.493L433,323L66,323Z" stroke="none" fill="#a7b3bc" style="fill-opacity: 1;"></path><path stroke-width="3" d="M66,296.51773333333335C76.25637910085055,290.54283333333336,96.76913730255163,277.85175833333335,107.02551640340218,272.61813333333333C117.28189550425273,267.3845083333333,137.7946537059538,257.51018469945353,148.05103280680436,254.64873333333333C158.1959295261239,251.81838469945353,178.48572296476306,252.15196804788212,188.6306196840826,249.85093333333333C198.6640340218712,247.5751847145488,218.73086269744834,239.53322912087913,228.76427703523694,236.3416C239.0206561360875,233.0790457875458,259.53341433778854,223.89885833333332,269.7897934386391,224.0342C280.04617253948965,224.16954166666667,300.55893074119075,251.25343315118397,310.8153098420413,237.42433333333332C320.96020656136085,223.74554981785062,341.25,122.11323333333331,351.39489671931955,114.00266666666664C361.5397934386391,105.89209999999997,381.82958687727825,164.02529134790527,391.9744835965978,172.53979999999999C402.23086269744834,181.1478746812386,422.74362089914945,180.00469999999999,433,182.493" stroke="#7a92a3" fill="none" style=""></path><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="2" cy="296.51773333333335" cx="66"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="2" cy="272.61813333333333" cx="107.02551640340218"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="2" cy="254.64873333333333" cx="148.05103280680436"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="2" cy="249.85093333333333" cx="188.6306196840826"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="2" cy="236.3416" cx="228.76427703523694"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="2" cy="224.0342" cx="269.7897934386391"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="2" cy="237.42433333333332" cx="310.8153098420413"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="2" cy="114.00266666666664" cx="351.39489671931955"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="2" cy="172.53979999999999" cx="391.9744835965978"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="2" cy="182.493" cx="433"></circle><path fill-opacity="1" d="M66,296.51773333333335C76.25637910085055,296.2396,96.76913730255163,298.19398333333334,107.02551640340218,295.4052C117.28189550425273,292.6164166666666,137.7946537059538,275.442185428051,148.05103280680436,274.2074666666667C158.1959295261239,272.98616876138436,178.48572296476306,287.9508370165746,188.6306196840826,285.58113333333336C198.6640340218712,283.23747034990794,218.73086269744834,257.6909258241758,228.76427703523694,255.35399999999998C239.0206561360875,252.96514249084248,259.53341433778854,264.20708333333334,269.7897934386391,266.678C280.04617253948965,269.14891666666665,300.55893074119075,286.8605249544627,310.8153098420413,275.1213333333333C320.96020656136085,263.5097416211293,341.25,180.55972500000001,351.39489671931955,173.27486666666667C361.5397934386391,165.99000833333332,381.82958687727825,208.6416179417122,391.9744835965978,216.84246666666667C402.23086269744834,225.13343460837888,422.74362089914945,233.64221666666666,433,239.24213333333333L433,323L66,323Z" stroke="none" fill="#2577b5" style="fill-opacity: 1;"></path><path stroke-width="3" d="M66,296.51773333333335C76.25637910085055,296.2396,96.76913730255163,298.19398333333334,107.02551640340218,295.4052C117.28189550425273,292.6164166666666,137.7946537059538,275.442185428051,148.05103280680436,274.2074666666667C158.1959295261239,272.98616876138436,178.48572296476306,287.9508370165746,188.6306196840826,285.58113333333336C198.6640340218712,283.23747034990794,218.73086269744834,257.6909258241758,228.76427703523694,255.35399999999998C239.0206561360875,252.96514249084248,259.53341433778854,264.20708333333334,269.7897934386391,266.678C280.04617253948965,269.14891666666665,300.55893074119075,286.8605249544627,310.8153098420413,275.1213333333333C320.96020656136085,263.5097416211293,341.25,180.55972500000001,351.39489671931955,173.27486666666667C361.5397934386391,165.99000833333332,381.82958687727825,208.6416179417122,391.9744835965978,216.84246666666667C402.23086269744834,225.13343460837888,422.74362089914945,233.64221666666666,433,239.24213333333333" stroke="#0b62a4" fill="none" style=""></path><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="2" cy="296.51773333333335" cx="66"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="2" cy="295.4052" cx="107.02551640340218"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="2" cy="274.2074666666667" cx="148.05103280680436"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="2" cy="285.58113333333336" cx="188.6306196840826"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="2" cy="255.35399999999998" cx="228.76427703523694"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="2" cy="266.678" cx="269.7897934386391"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="2" cy="275.1213333333333" cx="310.8153098420413"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="2" cy="173.27486666666667" cx="351.39489671931955"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="2" cy="216.84246666666667" cx="391.9744835965978"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="2" cy="239.24213333333333" cx="433"></circle></svg><div style="left: 344px; top: 128px; display: none;" class="morris-hover morris-default-style"><div class="morris-hover-row-label">2012 Q2</div><div class="morris-hover-point" style="color: #0b62a4">
+  iPhone:
+  8,432
+</div><div class="morris-hover-point" style="color: #7A92A3">
+  iPad:
+  5,713
+</div><div class="morris-hover-point" style="color: #4da74d">
+  iPod Touch:
+  1,791
+</div></div></div>
                         </div>
                     </div>            
                 </div> 
@@ -143,7 +141,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                             Donut Chart Example
                         </div>
                         <div class="panel-body">
-                            <div id="morris-donut-chart"></div>
+                            <div id="morris-donut-chart"><svg style="overflow: hidden; position: relative; top: -0.400024px;" xmlns="http://www.w3.org/2000/svg" width="458" version="1.1" height="357"><desc>Created with Raphaël 2.1.0</desc><defs></defs><path opacity="0" stroke-width="2" d="M229,295A114,114,0,0,0,336.61155310728583,218.6265018017594" stroke="#0b62a4" fill="none" style="opacity: 0;"></path><path stroke-width="3" d="M229,298A117,117,0,0,0,339.44343608379336,219.6166729018057L385.69752470008285,235.78946753589526A166,166,0,0,1,229,347Z" stroke="#ffffff" fill="#0b62a4" style=""></path><path opacity="1" stroke-width="2" d="M336.61155310728583,218.6265018017594A114,114,0,0,0,126.73213383321085,130.62854429647973" stroke="#3980b5" fill="none" style="opacity: 1;"></path><path stroke-width="3" d="M339.44343608379336,219.6166729018057A117,117,0,0,0,124.04087419724272,129.3029796727029L75.59820074981627,105.44281644471961A171,171,0,0,1,390.4173296609287,237.4397527026391Z" stroke="#ffffff" fill="#3980b5" style=""></path><path opacity="0" stroke-width="2" d="M126.73213383321085,130.62854429647973A114,114,0,0,0,228.9641858443382,294.9999943743255" stroke="#679dc6" fill="none" style="opacity: 0;"></path><path stroke-width="3" d="M124.04087419724272,129.3029796727029A117,117,0,0,0,228.96324336655763,297.9999942262815L228.94784956280827,346.9999918082284A166,166,0,0,1,80.08363347642984,107.65209081768101Z" stroke="#ffffff" fill="#679dc6" style=""></path><text stroke-width="0.5799220272904483" transform="matrix(1.7244,0,0,1.7244,-166.2429,-130.3866)" font-weight="800" font-size="15px" fill="#000000" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="171" x="229" style="text-anchor: middle; font: 800 15px &quot;Arial&quot;;"><tspan dy="5">In-Store Sales</tspan></text><text stroke-width="0.42105263157894735" transform="matrix(2.375,0,0,2.375,-315.5625,-251.625)" font-size="14px" fill="#000000" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="191" x="229" style="text-anchor: middle; font: 14px &quot;Arial&quot;;"><tspan dy="5">30</tspan></text></svg></div>
                         </div>
                     </div>            
                 </div>
@@ -153,7 +151,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                             Line Chart Example
                         </div>
                         <div class="panel-body">
-                            <div id="morris-line-chart"></div>
+                            <div style="position: relative;" id="morris-line-chart"><svg style="overflow: hidden; position: relative; left: -0.5px; top: -0.400024px;" xmlns="http://www.w3.org/2000/svg" width="458" version="1.1" height="357"><desc>Created with Raphaël 2.1.0</desc><defs></defs><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="323" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">0</tspan></text><path stroke-width="0.5" d="M49,323H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="248.5" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">25</tspan></text><path stroke-width="0.5" d="M49,248.5H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="174" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">50</tspan></text><path stroke-width="0.5" d="M49,174H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="99.5" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">75</tspan></text><path stroke-width="0.5" d="M49,99.5H433" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="25" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">100</tspan></text><path stroke-width="0.5" d="M49,25H433" stroke="#aaaaaa" fill="none" style=""></path><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="433" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2012</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="369.02921040620726" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2011</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="305.05842081241445" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2010</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="241.08763121862165" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2009</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="176.9415791875856" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2008</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="112.9707895937928" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2007</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="335.5" x="49" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2006</tspan></text><path stroke-width="3" d="M49,54.80000000000001C64.9926973984482,73.42500000000001,96.9780921953446,110.67500000000001,112.9707895937928,129.3C128.963486992241,147.925,160.9488817891374,203.8,176.9415791875856,203.8C192.97809219534463,203.8,225.05111821086263,129.3,241.08763121862165,129.3C257.0803286170699,129.3,289.0657234139662,203.8,305.05842081241445,203.8C321.0511182108627,203.8,353.036513007759,147.925,369.02921040620726,129.3C385.0219078046554,110.67500000000001,417.0073026015518,73.42500000000001,433,54.80000000000001" stroke="#7a92a3" fill="none" style=""></path><path stroke-width="3" d="M49,25C64.9926973984482,43.625,96.9780921953446,80.875,112.9707895937928,99.5C128.963486992241,118.125,160.9488817891374,174,176.9415791875856,174C192.97809219534463,174,225.05111821086263,99.5,241.08763121862165,99.5C257.0803286170699,99.5,289.0657234139662,174,305.05842081241445,174C321.0511182108627,174,353.036513007759,118.125,369.02921040620726,99.5C385.0219078046554,80.875,417.0073026015518,43.625,433,25" stroke="#0b62a4" fill="none" style=""></path><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="4" cy="54.80000000000001" cx="49"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="4" cy="129.3" cx="112.9707895937928"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="4" cy="203.8" cx="176.9415791875856"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="4" cy="129.3" cx="241.08763121862165"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="4" cy="203.8" cx="305.05842081241445"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="4" cy="129.3" cx="369.02921040620726"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#7a92a3" r="4" cy="54.80000000000001" cx="433"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="4" cy="25" cx="49"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="4" cy="99.5" cx="112.9707895937928"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="4" cy="174" cx="176.9415791875856"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="4" cy="99.5" cx="241.08763121862165"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="4" cy="174" cx="305.05842081241445"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="4" cy="99.5" cx="369.02921040620726"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#0b62a4" r="4" cy="25" cx="433"></circle></svg><div style="display: none;" class="morris-hover morris-default-style"></div></div>
                         </div>
                     </div>            
                 </div> 
@@ -180,5 +178,6 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
     <script src="assets/js/custom.js"></script>
     
    
-</body>
-</html>
+
+
+</body></html>
