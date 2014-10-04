@@ -3,7 +3,6 @@
 	"main": "server.js",
 	"dependencies": {
 		"express": "*",
-        "mongoose": "*",
-        "mongoose-file": "*"
+        "body-parser": "*"
 	}
 }
