@@ -3,7 +3,7 @@
  * appropriate page based on whether you click 
  * Home, Archive, Ask, or Contact 
  */
-var SLIDE_DURATION = 1500;
+var SLIDE_DURATION = 1250;
 
 /*
  * onClick function for each link 
