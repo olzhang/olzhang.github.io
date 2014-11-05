@@ -36,6 +36,7 @@ body{
 	width: 80%;
 	margin: 0 auto;
 }
+
 .header-bg{
 	background:#fff;
 	border-top:10px solid #E44A4A;
@@ -212,6 +213,147 @@ body{
 }
 .cardLayout .card#waldo .textArea {
 	background-color: #4a2371;
+}
+
+/*--project-page-bars--*/
+.squareTile{
+	position:relative;
+	width:100%;
+	border-radius:5%;
+	overflow:hidden;
+    max-width: 200px
+}
+
+.squareTile:before{
+	content:"";
+	display:block;
+	padding-top:100%
+}
+
+.squareTile .content{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	border-radius:5%;
+	overflow:hidden;
+    max-width: 200px;
+    width:100%;
+}
+
+.squareTile .svg{
+	width:100%;
+	height:100%
+}
+
+.wrap#experience {
+	width: 90%;
+}
+
+
+@media not all and (min-width:1000px){
+    .experienceList>li{
+		margin:0 auto;
+		width:100%
+	}
+}
+
+.experienceList>li{
+	overflow:hidden;
+	border-radius:10px;
+	padding:20px
+}
+
+.experienceList>li .iconArea{
+		float:left;
+}
+
+@media all and (min-width:1000px){
+	.experienceList>li .iconArea{
+		width:160px;
+		padding:20px
+	}
+	.experienceList>li .iconArea#biztech {
+		width:175px;
+		padding:20px
+	}
+}
+
+@media not all and (min-width:1000px){
+	.experienceList>li .iconArea{
+		width:100%;
+		max-width:160px;
+		margin:0 auto
+	}
+	.experienceList>li .iconArea#biztech {
+		width:100%;
+		max-width:175px;
+		margin:0 auto
+	}
+}
+
+.experienceList>li .descriptionArea{
+	line-height:2;
+    float: right
+}
+
+@media all and (min-width:1000px){
+    .experienceList>li .descriptionArea{
+		width:760px
+	}
+}
+
+@media not all and (min-width:1000px){
+    .experienceList>li .descriptionArea{
+		width:100%;
+		padding-top:10px
+	}
+}
+.experienceList>li .descriptionArea a{
+	color:#91cfd7
+}
+.experienceList>li .descriptionArea .titleBar{
+	position:relative;
+	padding-bottom:.5%;
+	overflow:hidden
+}
+.experienceList>li .descriptionArea .titleBar .title{
+	font-weight:700;
+	float:left;
+	font-size:26px;
+    color: #A8A8A8
+}
+.experienceList>li .descriptionArea .titleBar .dateRange{
+	padding-top:11px;
+	float:right;
+	font-size:16px;
+    color: #A8A8A8
+}
+.experienceList>li .description {
+    color: #A8A8A8
+}
+
+@media not all and (min-width:1000px){
+    .experienceList>li .descriptionArea .titleBar .dateRange{
+		padding-top:0;
+		float:left
+	}
+
+}
+
+@media (min-width:600px){
+	.experienceList>li .descriptionArea .titleBar .dateRange{
+		float:right
+	}
+
+}
+.experienceList>li .descriptionArea .descriptio.experienceList>li .descriptionArea .descriptionBullets{
+	font-size:16px;
+	list-style:disc inside
+}
+.experienceList>li .descriptionArea{
+	float:left
 }
 
 /*---start-media-queries---*/
