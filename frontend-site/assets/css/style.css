@@ -295,7 +295,8 @@ body{
 
 .experienceList>li .descriptionArea{
 	line-height:2;
-    float: right
+    float: right;
+    position: relative
 }
 
 @media all and (min-width:1000px){
