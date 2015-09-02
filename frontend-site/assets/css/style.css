@@ -59,7 +59,7 @@ body{
 .intro p {
 	color:#A8A8A8;
 	line-height: 1.6em;
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 
 /*--end-page-divs--*/
@@ -214,6 +214,12 @@ body{
 .cardLayout .card#waldo .textArea {
 	background-color: #4a2371;
 }
+.cardLayout .card#cube {
+	background-color: #ffa500;
+}
+.cardLayout .card#cube .textArea {
+	background-color: #e8a317;
+}
 
 /*--project-page-bars--*/
 .squareTile{
@@ -270,12 +276,13 @@ body{
 }
 
 @media all and (min-width:1000px){
+
+	.experienceList > li {
+		padding-left: 20%
+	}
+
 	.experienceList>li .iconArea{
 		width:160px;
-		padding:20px
-	}
-	.experienceList>li .iconArea#biztech {
-		width:175px;
 		padding:20px
 	}
 }
@@ -286,17 +293,11 @@ body{
 		max-width:160px;
 		margin:0 auto
 	}
-	.experienceList>li .iconArea#biztech {
-		width:100%;
-		max-width:175px;
-		margin:0 auto
-	}
 }
 
 .experienceList>li .descriptionArea{
 	line-height:2;
     float: right;
-    position: relative
 }
 
 @media all and (min-width:1000px){
