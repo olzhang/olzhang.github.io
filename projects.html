@@ -20,12 +20,12 @@
     <div class="nav">
         <ul>
             <li class="a">
-                <a class="link home-page active" href="./index.html" >
+                <a class="link home-page" href="./index.html" >
                    Home
                 </a>
             </li>
             <li>
-                <a href="./projects.html" class="link projects-page" >Projects</a>
+                <a href="./projects.html" class="link projects-page active" >Projects</a>
             </li>
             <li>
                 <a href="./experiences.html" class="link experience-page" >Experience</a>
@@ -33,16 +33,36 @@
         </ul>
     </div>
     <div class="clear"></div>
-    <div id="home-page" class="main" >
-        <div class="intro">
-            <p>
-                Hi, I'm Oliver. To be honest, I'd rather be eating cheetos and doing TV show marathons rather than typing this. But according
-                to my university's career advisors, collecting Game of Thrones trivia and napping are not skill sets that employers are looking for (who knew). 
-                So, I created this website to show the world that even a couch potato like moi is capable of being a productive member of society. 
-                On a more serious note, I am a 3rd year student at the University of British Columbia (UBC) doing a combined major in Business and 
-                Computer Science. On this site you'll find some projects I've worked on, my work history, and my contacts.
-            </p>
-        </div>
+    <div id="projects-page" class="main">
+        <ol class="cardLayout">
+            <a href="https://github.com/ronaldho/sightseeio" target="_blank">
+                <li id="sightseeio" class="card">
+                    <img src="assets/images/sightseeio.svg" id="sightseeio" class="photo">
+                    <div class="textArea">
+                        <h3 class="title">sightseeio</h3>
+                        <p class="description">auto itinerary generator</p>
+                    </div>
+                </li>
+            </a>
+            <a href="https://github.com/maggiechen/gamejam2015" target="_blank">
+                <li id="cube" class="card">
+                    <img src="assets/images/cube.svg" id="cube" class="photo">
+                    <div class="textArea">
+                        <h3 class="title">gravityCube</h3>
+                        <p class="description">be a cube a relive interstellar</p>
+                    </div>
+                </li>
+            </a>
+            <a href="https://github.com/olzhang/MochiOlive" target="_blank">
+                <li id="mochiolive" class="card">
+                    <img src="assets/images/mochiolive.svg" id="mochiolive" class="photo">
+                    <div class="textArea">
+                        <h3 class="title">mochiolive</h3>
+                        <p class="description">happy hour finder</p>
+                    </div>
+                </li>
+            </a>
+        </ol>
     </div>
     <!-- footer-bottom -->
     <div class="footer-bottom">
