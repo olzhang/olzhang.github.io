@@ -76,7 +76,7 @@ body{
 	color: #A8A8A8;
 	-webkit-text-stroke:1px;
 	display: block;
-	z-index: 9999999;
+	z-home: 9999999;
 }
 .nav ul li a:hover
 {
