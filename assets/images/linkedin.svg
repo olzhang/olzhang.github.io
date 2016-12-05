@@ -10,6 +10,7 @@
     	}
     	path:hover {
       		fill: #e44a4a;
+          cursor: pointer;
       	}
     ]]></style>
 </defs>
