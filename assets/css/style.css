@@ -309,11 +309,12 @@ body{
 .experienceList>li .descriptionArea .titleBar .dateRange{
 	padding-top:11px;
 	float:right;
-	font-size:16px;
+	font-size:1.25rem;
     color: #A8A8A8
 }
 .experienceList>li .description {
-    color: #A8A8A8
+    color: #A8A8A8;
+    font-size: 1.5rem
 }
 
 @media not all and (min-width:1000px){
