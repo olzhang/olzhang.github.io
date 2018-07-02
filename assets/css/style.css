@@ -256,7 +256,7 @@ body{
 @media (min-width:1000px){
 
 	.experienceList > li {
-		padding: 0% 3% 2% 3%;
+		padding-left: 10%;
 	}
 }
 
